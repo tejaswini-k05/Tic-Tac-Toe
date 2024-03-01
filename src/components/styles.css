@@ -1,0 +1,30 @@
+body {
+    
+    background-color: rgb(234, 210, 245);
+}
+
+.tic-tac-toe-container {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+
+}
+
+.square {
+    border-radius: 10%;
+    background-color: rgb(242, 242, 197);
+    border: 2px solid rgb(40, 27, 40);
+    cursor: pointer;
+    float: left;
+    font-size: 40px;
+    height: 100px;
+    padding: 0px;
+    text-align: center;
+    width: 100px;
+}
+
+.btn-outline-dark {
+    border-color: rgb(22, 8, 35);
+}
